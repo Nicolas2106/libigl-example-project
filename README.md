@@ -1,13 +1,6 @@
-# libigl example project
+# Garland example surface simplification project
 
-A blank project example showing how to use libigl and cmake. Feel free and
-encouraged to copy or fork this project as a way of starting a new personal
-project using libigl.
-
-## See the tutorial first
-
-Then build, run and understand the [libigl
-tutorial](http://libigl.github.io/libigl/tutorial/).
+An example project about surface simplification using quadric error metrics, which is put forward by Michael Garland and Paul S. Heckbert in 1997.
 
 ## Dependencies
 
@@ -43,4 +36,4 @@ From within the `build` directory just issue:
 
     ./example
 
-A glfw app should launch displaying a 3D cube.
+A glfw app should launch.
