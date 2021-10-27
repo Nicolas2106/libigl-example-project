@@ -36,4 +36,4 @@ From within the `build` directory just issue:
 
     ./garland
 
-A glfw app should launch.
+Or click on `garland.sln` file to open the Visual Studio project.
