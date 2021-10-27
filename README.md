@@ -1,6 +1,6 @@
 # Garland example surface simplification project
 
-An example project about surface simplification using quadric error metrics, which is put forward by Michael Garland and Paul S. Heckbert in 1997.
+An example project using libigl about surface simplification and quadric error metrics, which is put forward by Michael Garland and Paul S. Heckbert.
 
 ## Dependencies
 
@@ -28,12 +28,12 @@ Compile this project using the standard cmake routine:
     cmake ..
     make
 
-This should find and build the dependencies and create a `example_bin` binary.
+This should find and build the dependencies.
 
 ## Run
 
 From within the `build` directory just issue:
 
-    ./example
+    ./garland
 
 A glfw app should launch.

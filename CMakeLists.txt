@@ -8,7 +8,11 @@ option(LIBIGL_WITH_OPENGL            "Use OpenGL"         ON)
 option(LIBIGL_WITH_OPENGL_GLFW       "Use GLFW"           ON)
 include(libigl)
 
-# Add your project files
-file(GLOB SRC_FILES *.cpp)
-add_executable(garland garland_simplification.cpp)
+#Bring the headers .h files
+include_directories(include)
+
+# Add project .cpp files
+file(GLOB SRC_FILES src/*.cpp)
+
+add_executable(garland ${SRC_FILES})
 target_link_libraries(garland PUBLIC igl::core igl::opengl_glfw)
