@@ -24,7 +24,7 @@ void GarlandSimplification::startSimplification(int finalNumberOfFaces)
 	std::cout << "\n=== AFTER GARLAND SIMPLIFICATION ===\nVERTICES NUM: " << U.rows() << "\nFACES NUM: " << G.rows() << "\n\n";
 }
 
-void GarlandSimplification::drawResult() // Draw the simplified mesh
+void GarlandSimplification::drawResult()
 {
 	// Init Viewer with two views
 	igl::opengl::glfw::Viewer viewer;
