@@ -37,3 +37,9 @@ From within the `build` directory just issue:
     ./garland
 
 Or click on `garland.sln` file to open the Visual Studio project.
+
+## Example of result
+
+Garland semplification example from 6966 faces to 200 faces.
+
+![alt text](https://github.com/Nicolas2106/libigl-example-project/blob/garland/result.png?raw=true)
