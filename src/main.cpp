@@ -4,7 +4,9 @@ void main()
 {
 	GarlandSimplification garland;
 
-	garland.input("bunny.off");
-	garland.startSimplification(200);
-	garland.drawResult();
+	garland.inputMesh("bunny.off");
+	if (garland.startSimplification(500))
+	{
+		garland.drawResult();
+	}
 }
