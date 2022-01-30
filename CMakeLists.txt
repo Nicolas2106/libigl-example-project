@@ -11,8 +11,8 @@ include(libigl)
 #Bring the headers .h files
 include_directories(include)
 
-# Add project .cpp files
-file(GLOB SRC_FILES src/*.cpp)
+# Add project's files
+file(GLOB SRC_FILES src/*)
 
 add_executable(garland ${SRC_FILES})
 target_link_libraries(garland PUBLIC igl::core igl::opengl_glfw)

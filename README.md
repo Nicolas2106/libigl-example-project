@@ -38,7 +38,7 @@ From within the `build` directory just issue:
 
 Or click on `garland.sln` file to open the Visual Studio project.
 
-## Example of result
+## Example of the result
 
 Garland simplification example from 6966 faces to 200 faces.
 
