@@ -8,9 +8,6 @@ option(LIBIGL_WITH_OPENGL            "Use OpenGL"         ON)
 option(LIBIGL_WITH_OPENGL_GLFW       "Use GLFW"           ON)
 include(libigl)
 
-#Bring the headers .h files
-include_directories(include)
-
 # Add project's files
 file(GLOB SRC_FILES src/*)
 

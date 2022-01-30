@@ -26,7 +26,6 @@ Compile this project using the standard cmake routine:
     mkdir build
     cd build
     cmake ..
-    make
 
 This should find and build the dependencies.
 
@@ -36,7 +35,7 @@ From within the `build` directory just issue:
 
     ./garland
 
-Or click on `garland.sln` file to open the Visual Studio project.
+Or double-click on `garland.sln` file to open the Visual Studio project.
 
 ## Example of the result
 
